@@ -1,0 +1,76 @@
+:root {
+    --col-textdark:#403F3D;
+    --col-textlight:#E1D4C9;
+    --col-textaccent:#B0907A;
+    --col-backbody:#E1D4C9;
+    --col-backcontainer:#665F55;
+    --col-backdrop:rgba(64, 63, 61, 0.80);
+    --col-borderlight:#C1B6AD;
+    --col-borderdark:#665F55;
+    --font-interreg:'InterRegular', sans-serif;
+    --font-interbold:'InterBold', sans-serif;
+    --font-forumreg:'ForumRegular', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    overflow: hidden;
+    position: relative; 
+    margin: 0 auto;
+}
+
+.h2 {
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    color: var(--col-tittle);
+    font-family: var(--font-forumreg);
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.h2::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 20px);
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 1px;
+    background-color: var(--col-tittle);
+}
+
+.h3 {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: var(--col-black);
+    font-family: var(--font-forumreg);
+    font-size: 20px;
+    line-height: 40px; 
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.h3::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    background-color: var(--col-gold);
+}
