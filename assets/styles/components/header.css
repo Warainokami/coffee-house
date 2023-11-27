@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1368px;
+    max-width: 1360px;
     margin-top: 18px;
 }
 
@@ -33,8 +33,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-top: -7px;
-    margin-right: 8px;
+    margin-right: 4px;
 }
 
 .menu-tittle {
@@ -47,5 +46,5 @@
 }
 
 .img-menu {
-    margin-right: 2px;
+    padding-left: 2px;
 }
