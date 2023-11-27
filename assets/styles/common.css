@@ -22,6 +22,7 @@ body {
     font-family: var(--font-interreg);
     background-color:var(--col-backbody);
     color: var(--col-textdark);
+    padding-bottom: 40px;
 }
 
 .container {
