@@ -91,6 +91,7 @@
     flex-wrap: wrap;
     margin-top: 47px;
     margin-bottom: 183px;
+    max-width: 1400px;
 }
 
 .menu-list-item {
@@ -119,7 +120,7 @@
 
 .menu-list-img {
     border-radius: 40px;
-    width: 308px;
+    width: 310px;
 }
 
 .coffee-menu-description {
