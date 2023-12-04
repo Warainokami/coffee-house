@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ForumRegular';
+    src: local('ForumRegular'),
+    url('../fonts/ForumRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'InterRegular';
+    src: local('InterRegular'),
+    url('../fonts/InterRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: local('InterBold'),
+    url('../fonts/InterBold.woff') format('woff');
+}
+
