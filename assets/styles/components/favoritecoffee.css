@@ -95,3 +95,11 @@
     margin-right: 12px;
     margin-left: 12px;
 }
+
+@media (max-width: 768px) {
+
+    .slider-img-description {
+        max-width: 80%;
+    }
+
+}
