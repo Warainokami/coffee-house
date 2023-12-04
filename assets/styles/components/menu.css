@@ -169,7 +169,7 @@
     cursor: pointer;
 }
 
-@media (min-width: 1px) and (max-width: 1050px) {
+@media (min-width: 1px) and (max-width: 768px) {
 
     .menu-tittle-txt {
         width: 95%;
