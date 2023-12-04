@@ -52,3 +52,9 @@
 .lnk-menu {
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+}
